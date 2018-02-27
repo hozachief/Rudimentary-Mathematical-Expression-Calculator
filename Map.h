@@ -5,28 +5,6 @@
 #include <iostream>
 using namespace std;
 
-// Notes: 
-// 1. find node
-// 2. remove node
-
-//------------------------------------------------------------------------------
-// You are going to be provided with an incomplete Map class based on a BST (Map.h). 
-// Your task for today is to provide implementations for each of three missing 
-// API functions: insert(), remove(), and search(). 
-// For the most part, these 
-// functions will mirror their counterparts in BST.h, but there are a few 
-// important differences:
-//
-// insert() should NOT allow duplicate keys to be inserted. If a duplicate node is 
-// found, the node's value should be updated instead.
-//
-// remove() should return the value of the node being deleted along with the 
-// flag indicating whether or not the operation was successful.
-//
-// search() should save the corresponding value once the node with the given key 
-// is found.
-//------------------------------------------------------------------------------
-
 // Represents a single Node in the BST used to implement the map.
 template <class Key, class Value>
 struct Node
